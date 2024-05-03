@@ -1,20 +1,25 @@
 import { MantineProvider, AppShell } from "@mantine/core";
-import Home from "./components/Home"
-import Navbar from "./components/Navbar"
+import Home from "./pages/Home";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer.jsx"
+import { Outlet } from "react-router-dom";
 
 import "@mantine/core/styles.css";
-
 
 function App() {
   return (
     <MantineProvider>
-      <AppShell style={{ background: "#e9f5db" }}>
+      <AppShell>
         <AppShell.Header>
-          <Navbar/>
+          <Navbar />
         </AppShell.Header>
-        <AppShell.Main>
+        <AppShell.Main style={{ background: "#e9f5db" }}>
+          <Outlet />
           <Home />
         </AppShell.Main>
+        <AppShell.Footer style={{position: "static"}}>
+          <Footer />
+        </AppShell.Footer>
       </AppShell>
     </MantineProvider>
   );

@@ -1,12 +1,15 @@
-import {Stack, Title, TextInput, Textarea, Container, Button, Flex, Image} from "@mantine/core"
+import {Stack, Title, TextInput, Textarea, Container, Button, Flex, Image, Text} from "@mantine/core"
 import {useState} from 'react'
 import {IconAt} from "@tabler/icons-react"
+
+import { validateEmail } from "../../utils/helpers";
 
 
 function ContactForm(props){
     const [contactName, setContactName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
+    const [errorMessage, setErrorMessage] = useState("");
 
     const handleInputChange = (e) => {
       const {name, value} = e.target;
@@ -24,7 +27,12 @@ function ContactForm(props){
     const handleFormSubmit = (e) => {
       e.preventDefault();
 
-      alert('Message Sent');
+      if (!validateEmail(email)) {
+        setErrorMessage("Email is invalid");
+        return;
+      }
+
+      alert('Sorry this feature is currently unavailable, please find my email address in the footer');
       setContactName('');
       setEmail('');
       setMessage('');
@@ -91,6 +99,11 @@ function ContactForm(props){
             >
               Send Message
             </Button>
+            {errorMessage && (
+              <div>
+                <p className="error-text">{errorMessage}</p>
+              </div>
+            )}
           </form>
         </Stack>
       </Container>

@@ -1,4 +1,4 @@
-import { MantineProvider, AppShell } from "@mantine/core";
+import { MantineProvider, AppShell, Button } from "@mantine/core";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer.jsx"
@@ -10,14 +10,13 @@ function App() {
   return (
     <MantineProvider>
       <AppShell>
-        <AppShell.Header>
+        <AppShell.Header style={{ position: "static" }}>
           <Navbar />
         </AppShell.Header>
-        <AppShell.Main style={{ background: "#e9f5db" }}>
+        <AppShell.Main style={{ background: "#e9f5db"}}>
           <Outlet />
-          <Home />
         </AppShell.Main>
-        <AppShell.Footer style={{position: "static"}}>
+        <AppShell.Footer style={{ position: "static" }}>
           <Footer />
         </AppShell.Footer>
       </AppShell>

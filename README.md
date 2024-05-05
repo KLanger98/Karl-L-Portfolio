@@ -1,8 +1,9 @@
-# React + Vite
+# <Karl's Portfolio>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+Welcome to the repository of my portfolio website. The motivation behind this portfolio was to create a new portfolio showing off what I have learnt to create with React and display my creativity towards Web Development. I was lucky enough to source most of the doodles from Andreans D. Escobar's Notion Illustrations on Figma which inspired alot of my portfolio's design (Please find a link to Andrean's work below). By accessing the below live link you will find a list of some projects I am proud of, a summary of myself and my skills along with some methods to contact me. 
 
-Currently, two official plugins are available:
+Live Link:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Credits
+Illustrations - Andreands D. Escobar: https://www.figma.com/community/file/1166754939830044499/lineal-notion-style-illustrations?searchSessionId=lvtbvgmk-omox52julbc

@@ -1,4 +1,4 @@
-import {Title, Group, Flex, Stack} from '@mantine/core'
+import {Title, Group, Flex, Stack, Divider} from '@mantine/core'
 import {
     IconHtml,
     IconBrandCss3,
@@ -43,16 +43,13 @@ const technolgoies = [
 
 function Tech(){
     return (
-      <Stack
-        // style={{ background: "#B5C99A" }}
-        direction="column"
-        align="center"
-        my="auto"
-        h={400}
-        p={10}
-      >
-        <Title>Tech I Love To Use</Title>
-        <Group>
+      <Stack direction="column" align="center" my="auto" h={400} p={10}>
+        <Stack align="center">
+          <Title>Tech I Love To Use</Title>
+          <Divider w="80%" size="lg" color="#CFE1B9" />
+        </Stack>
+
+        <Group my="auto" pb={80} justify="center">
           {technolgoies.map((technology) => {
             let IconComponent = technology.iconName;
             return (

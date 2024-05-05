@@ -1,0 +1,22 @@
+
+@media (max-width: 1100px){
+    .heroImage{
+        max-width: 300px
+    }
+    .heroInfo{
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 900px){
+    .heroImage{
+        display: "none";
+    }
+}
+
+@media (max-width: 530px){
+    .heroSmall{
+        max-width: 50%;
+        height: auto;
+    }
+}

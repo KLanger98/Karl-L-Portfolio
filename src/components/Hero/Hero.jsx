@@ -69,7 +69,7 @@ function Hero() {
           Development bootcamp in the last few months. I look forward to the day
           I can finally make this a career.
         </Text>
-        <Link to="/Projects" style={{width: "100%"}} align="center">
+        <Link to="/Projects" style={{ width: "100%" }} align="center">
           <Button
             component="a"
             href="/Projects"
@@ -85,14 +85,14 @@ function Hero() {
 
         <Button
           component="a"
-          href="/Karl-Langer-Resume-2024.pdf"
+          href="Karl-Langer-Resume-May2024.pdf"
           m="8px"
           variant="gradient"
           gradient={{ from: "#97A97C", to: "#718355", deg: 90 }}
           rightSection={<IconFileDownload size={18} />}
           w="80%"
         >
-          Download my resume
+          Download my Resume
         </Button>
       </Flex>
     </Flex>

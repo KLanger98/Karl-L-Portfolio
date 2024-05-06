@@ -69,15 +69,15 @@ function Hero() {
           Development bootcamp in the last few months. I look forward to the day
           I can finally make this a career.
         </Text>
-        <Link to="/Projects">
+        <Link to="/Projects" style={{width: "100%"}} align="center">
           <Button
             component="a"
             href="/Projects"
             m="8px"
             variant="outline"
             color="#545A3E"
-            rightSection={<IconArrowRight size={14} />}
             w="80%"
+            rightSection={<IconArrowRight size={14} />}
           >
             Checkout my Projects
           </Button>
@@ -90,7 +90,6 @@ function Hero() {
           variant="gradient"
           gradient={{ from: "#97A97C", to: "#718355", deg: 90 }}
           rightSection={<IconFileDownload size={18} />}
-          fullWidth
           w="80%"
         >
           Download my resume

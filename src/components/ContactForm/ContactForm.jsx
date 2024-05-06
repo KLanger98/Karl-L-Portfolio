@@ -52,7 +52,7 @@ function ContactForm(props){
                 h="auto"
                 className="mantine-hidden-from-sm"
                 fit="contain"
-                src="src/assets/Images/Friend-talking@4x.png"
+                src="/Images/Friend-talking@4x.png"
               />
               <Title order={3}>Send Me A Message</Title>
             </Stack>
@@ -61,7 +61,7 @@ function ContactForm(props){
               h="auto"
               className="mantine-visible-from-sm mantine-hidden-from-lg"
               fit="contain"
-              src="src/assets/Images/Friend-talking@4x.png"
+              src="Images/Friend-talking@4x.png"
             />
           </Flex>
           <form className="form" onSubmit={handleFormSubmit}>

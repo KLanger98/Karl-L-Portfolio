@@ -8,8 +8,8 @@ let projectsData = [
     projectSubHeading: "Route Optimization Tool",
     projectDescription:
       "This group project was completed to solve an issue I have in my current work as a Home Care worker where I visit up to 7 homes in the same day. We created a user interface which could take up to 7 locations and return the fastest way to visit each location using a Route Optimization API from GraphHopper with google maps links allowing for easy navigation.",
-    iconPath: "src/assets/Images/flag@4x.png",
-    imagePath: "src/assets/Images/AsTheCrowFliesPCEDIT.png",
+    iconPath: "/Images/flag@4x.png",
+    imagePath: "/Images/AsTheCrowFliesPCEDIT.png",
     liveLink: "https://klanger98.github.io/AsTheCrowDrives/",
     repoLink: "https://github.com/KLanger98/AsTheCrowDrives",
     left: true,
@@ -19,8 +19,8 @@ let projectsData = [
     projectSubHeading: "Favourite Snacks Sharing Platform",
     projectDescription:
       "Another group project where I took the lead position, the aim being to create a platform where users from around the world could come together to share their favorite snacks, review other snacks and create lists based on what they like or want to try. ",
-    iconPath: "src/assets/Images/avocado@4x.png",
-    imagePath: "src/assets/Images/GobbleGlobalLandingPC.png",
+    iconPath: "/Images/avocado@4x.png",
+    imagePath: "/Images/GobbleGlobalLandingPC.png",
     liveLink: "https://thawing-peak-69496-59fa4b5ab176.herokuapp.com/",
     repoLink: "https://github.com/KLanger98/Gobble-Global-Snack-Finder",
     left: false,
@@ -30,8 +30,8 @@ let projectsData = [
     projectSubHeading: "An early adventure into React",
     projectDescription:
       "My first full react application where I created a simple Resume Generator tool to assist with understanding the basics. You can add key resume details and they will be rendered onto the document view.",
-    iconPath: "src/assets/Images/folder@4x.png",
-    imagePath: "src/assets/Images/ResumeGeneratorPC.png",
+    iconPath: "/Images/folder@4x.png",
+    imagePath: "/Images/ResumeGeneratorPC.png",
     liveLink: "https://symphonious-croquembouche-22f73e.netlify.app",
     repoLink: "https://github.com/KLanger98/CV-Generator",
     left: true,

@@ -16,7 +16,7 @@ function Hero() {
         m="20px"
         w="auto"
         fit="contain"
-        src="src/assets/images/me.jpeg"
+        src="/Images/me.jpeg"
       />
       <Flex direction="column" w={600} className="heroInfo" align="center">
         <Flex align="flex-end" justify="space-between" w="80%">
@@ -31,7 +31,7 @@ function Hero() {
                 radius="md"
                 m="20px"
                 w="auto"
-                src="src/assets/images/me.jpeg"
+                src="/Images/me.jpeg"
               />
             </Flex>
             <Title order={3}>My Name Is Karl.</Title>
@@ -43,10 +43,10 @@ function Hero() {
             radius="md"
             m="20px"
             w="auto"
-            src="src/assets/images/me.jpeg"
+            src="Images/me.jpeg"
           />
           <Image
-            src="src/assets/Images/camera-and-pictures@4x.png"
+            src="/Images/camera-and-pictures@4x.png"
             className="mantine-visible-from-md"
             h={150}
             fit="contain"
@@ -57,10 +57,11 @@ function Hero() {
         <Divider w="80%" size="lg" color="#CFE1B9" my={8} />
         <Text size="md" w="80%">
           I am an aspiring Full-Stack Developer looking to make the jump from my
-          career as a Physiotherapist into the world of Software Development. I have
-          been learning independently for the last two years and have
+          career as a Physiotherapist into the world of Software Development. I
+          have been learning independently for the last two years and have
           accelerated the process by completeting the Adelaide University Web
-          Development bootcamp in the last few months. I look forward to the day I can finally make this a career.
+          Development bootcamp in the last few months. I look forward to the day
+          I can finally make this a career.
         </Text>
         <Button
           component="a"
@@ -76,7 +77,7 @@ function Hero() {
 
         <Button
           component="a"
-          href="src/assets/Karl-Langer-Resume-2024.pdf"
+          href="/Karl-Langer-Resume-2024.pdf"
           m="8px"
           variant="gradient"
           gradient={{ from: "#97A97C", to: "#718355", deg: 90 }}

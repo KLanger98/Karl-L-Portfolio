@@ -16,7 +16,7 @@ function ContactPage() {
           h="auto"
           w={100}
           visibleFrom="lg"
-          src="src/assets/Images/person-sending-a-message@4x.png"
+          src="/Images/person-sending-a-message@4x.png"
         />
       </Flex>
     </Stack>

@@ -42,7 +42,7 @@ function Navbar() {
         <Stack align="center">
           <Flex align="center" ml={80} gap={16}>
             <Title>KL</Title>
-            <Image h={25} my="auto" src="src/assets/Images/glasses@4x.png" />
+            <Image h={25} my="auto" src="/Images/glasses@4x.png" />
           </Flex>
           <Flex>
             <Group gap={5} hiddenFrom="xs">

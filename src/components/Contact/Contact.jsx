@@ -16,7 +16,7 @@ function Contact() {
           h={300}
           className="mantine-visible-from-lg"
           fit="contain"
-          src="src/assets/Images/Friend-talking@4x.png"
+          src="Images/Friend-talking@4x.png"
         />
         <ContactForm bgcolor="#e9f5db" />
       </Flex>

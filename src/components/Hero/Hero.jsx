@@ -1,11 +1,17 @@
 import { Button, Image, Flex, Title, Text,  Stack, Divider, createTheme } from "@mantine/core";
 import {IconArrowRight, IconFileDownload} from '@tabler/icons-react'
+import { Link, useLocation } from "react-router-dom";
+import ProjectsGallery from "../../pages/ProjectsGallery";
 
 import classes from "./Hero.module.css"
 
+const links = [
+  { link: "/Projects", label: "Projects" },
+];
+
 function Hero() {
 
-  const smallImgClass = `mantine-visible-from-sm mantine-hidden-from-md  ${classes.heroSmall}`
+  const smallImgClass = `mantine-visible-from-sm mantine-hidden-from-md  ${classes.heroSmall}`;
 
   return (
     <Flex justify="space-evenly" align="center" h={850}>
@@ -59,21 +65,23 @@ function Hero() {
           I am an aspiring Full-Stack Developer looking to make the jump from my
           career as a Physiotherapist into the world of Software Development. I
           have been learning independently for the last two years and have
-          accelerated the process by completeting the Adelaide University Web
+          accelerated the process by completing the Adelaide University Web
           Development bootcamp in the last few months. I look forward to the day
           I can finally make this a career.
         </Text>
-        <Button
-          component="a"
-          href="/Projects"
-          m="8px"
-          variant="outline"
-          color="#545A3E"
-          rightSection={<IconArrowRight size={14} />}
-          w="80%"
-        >
-          Check out my projects
-        </Button>
+        <Link to="/Projects">
+          <Button
+            component="a"
+            href="/Projects"
+            m="8px"
+            variant="outline"
+            color="#545A3E"
+            rightSection={<IconArrowRight size={14} />}
+            w="80%"
+          >
+            Checkout my Projects
+          </Button>
+        </Link>
 
         <Button
           component="a"

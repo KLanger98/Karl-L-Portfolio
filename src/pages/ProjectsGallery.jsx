@@ -11,13 +11,13 @@ const otherProjects = [
   },
   {
     projectTitle: "Technology Blog",
-    projectDescription: "This project was completed to consolidate my understanding of the Model View Controller paradigm and how to construct a datavase using an Object Relational Model such as Sequelize. ",
+    projectDescription: "This project was completed to consolidate my understanding of the Model View Controller paradigm and how to construct a database using Sequelize as an Object Relational Model.",
     projectLink: "https://github.com/KLanger98/Technology-Blog",
     projectImage: "/Images/TechBlog.png",
   },
   {
     projectTitle: "PWA Text Editor",
-    projectDescription: "An exercise to create a Progressive Web Application for a Text Editor created with Webpack and IndexedDB. An application which is installable and available offline with the help of service workers",
+    projectDescription: "An exercise to create a Progressive Web Application for a Text Editor created with Webpack and IndexedDB. An application which is installable and available offline with the help of service workers.",
     projectImage: "/Images/PWAScreen.png",
     projectLink: "https://github.com/KLanger98/PWA-Text-Editor",
   },

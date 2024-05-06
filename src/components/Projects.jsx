@@ -18,7 +18,7 @@ let projectsData = [
     projectTitle: "Gobble Global",
     projectSubHeading: "Favourite Snacks Sharing Platform",
     projectDescription:
-      "Another group project where I took the lead position, the aim being to create a platform where users from around the world could come together to share their favorite snacks, review other snacks and create lists based on what they like or want to try. ",
+      "Another group project I managed with the aim of creating a platform where users from around the world could come together to share their favorite snacks. Users can sign up, review other snacks and create lists based on what they like or want to try.",
     iconPath: "/Images/avocado@4x.png",
     imagePath: "/Images/GobbleGlobalLandingPC.png",
     liveLink: "https://thawing-peak-69496-59fa4b5ab176.herokuapp.com/",
@@ -29,7 +29,7 @@ let projectsData = [
     projectTitle: "CV Generator",
     projectSubHeading: "An early adventure into React",
     projectDescription:
-      "My first full react application where I created a simple Resume Generator tool to assist with understanding the basics. You can add key resume details and they will be rendered onto the document view.",
+      "My first full react application where I created a simple Resume Generator tool in order to learn the basics of components and hooks. You can fill out key resume details and they will be rendered onto the document view.",
     iconPath: "/Images/folder@4x.png",
     imagePath: "/Images/ResumeGeneratorPC.png",
     liveLink: "https://symphonious-croquembouche-22f73e.netlify.app",

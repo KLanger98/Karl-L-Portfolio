@@ -40,7 +40,7 @@ function Navbar() {
     <header className={classes.header} style={{ background: "#B5C99A" }}>
       <Flex w="100%" justify="center">
         <Stack align="center">
-          <Flex align="center" ml={80} gap={16}>
+          <Flex align="center" ml={80} mt={4} gap={16}>
             <Title>KL</Title>
             <Image h={25} my="auto" src="/Images/glasses@4x.png" />
           </Flex>
